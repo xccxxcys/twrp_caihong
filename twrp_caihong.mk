@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Inherit from munch device
-$(call inherit-product, device/oneplus/caihong/device.mk)
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
