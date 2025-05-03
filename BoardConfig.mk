@@ -67,8 +67,6 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TW_EXTRA_LANGUAGES := true 
 TW_THEME := portrait_hdpi 
 TW_INCLUDE_FASTBOOTD := true 
-
-# Touch
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 
 TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko"
